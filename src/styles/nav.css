@@ -1,0 +1,41 @@
+nav{
+  background-color: #ffe600;
+}
+
+.nav-desktop{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px 50px;
+  gap: 10px;
+}
+
+.search-nav-desktop{
+  display: grid;
+  font-size: 13px;
+  grid-template-columns: 95% 5%;
+  background-color: white;
+  padding: 10px 5px;
+  gap: 3px;
+  width: 40%;
+}
+
+.imput-bar{
+  display: flex;
+  width: 100%;
+  border: none;
+}
+
+.img-logo{
+  display: flex;
+  width: 140px;
+}
+
+.img-tips{
+  display: flex;
+  width: 360px;
+}
+
+.nav-movil, .search-nav-movil, .img-logo-movil, .logo-burger{
+  display: none;
+}

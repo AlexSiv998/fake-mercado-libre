@@ -4,32 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fake-libre</title>
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <div>
-      <div>logo</div>
+    <div class="nav-desktop">
       <div>
-        <label for="Buscar">Buscar</label>
-        <input type="text" required placeholder="Buscar productos, marcas y más…">
-        <img src="" alt="BuscarLogo">
+        <img class="img-logo-movil" src="https://cdn.brandfetch.io/id_wYlzUry/w/180/h/180/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="img-logo-movil">
+        <img class="img-logo" src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.10.0/mercadolibre/logo_large_plus@2x.webp" alt="logo-desktop">
       </div>
-      <div>
-        <img src="" alt="BuscarLogo">
-        <label for="Buscar">Buscar</label>
-        <input type="text" required placeholder="Estoy buscando">
-      </div>
-      <div>
+      <div class="search-nav-desktop">
         <div>
-          <img src="" alt="tips de compra">
+          <label for="Buscar"></label>
+          <input class="imput-bar" type="text" required placeholder="Buscar productos, marcas y más…">
         </div>
         <div>
-          <img src="" alt="menu burger">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="search-nav-movil">
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <label for="Buscar"></label>
+        <input type="text" required placeholder="Estoy buscando">
+      </div>
+      <div> <!--right side-->
+        <div>
+          <img class="img-tips" src="https://http2.mlstatic.com/D_NQ_925587-MLA77326203893_062024-OO.webp" alt="tips de compra">
+        </div>
+        <div class="logo-burger">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
     </div>
-    <div>
-      <div class="movible">
+    <div class="nav-movil">
+      <div>
         <div>
           <img src="" alt="">
           <p></p>
@@ -75,7 +91,9 @@
       </div>
     </div>
   </nav>
-  <header>https://http2.mlstatic.com/D_NQ_844660-MLA106815929326_022026-OO.webp</header>
+  <header class="header-movil">
+    <img src="https://http2.mlstatic.com/D_NQ_844660-MLA106815929326_022026-OO.webp" alt="luz de fondo">
+  </header>
   <main>
     <section>
       <div>
