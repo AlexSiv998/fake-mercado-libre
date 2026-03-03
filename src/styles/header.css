@@ -1,7 +1,5 @@
-header{
+header {
   background-image: url("https://http2.mlstatic.com/D_NQ_844660-MLA106815929326_022026-OO.webp");
+  width: 100%;
 }
 
-.header-movil{
-  display: none;
-}

@@ -36,6 +36,26 @@ nav{
   width: 360px;
 }
 
+.categories> .desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.desktop> div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 12px;
+}
+
+.categories-d-c{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 .nav-movil, .search-nav-movil, .img-logo-movil, .logo-burger{
   display: none;
 }
